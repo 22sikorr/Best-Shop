@@ -1,0 +1,51 @@
+.menu{
+    // border: 1px solid black;
+    height: 70px;
+    font-family: $main-font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    .container{
+        // margin: 0 136px;
+        width: 1490px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        nav{
+            height: 70px;
+            display: flex;
+            align-items: center;
+        }
+        h1{
+            font-size: 32px;
+            font-weight: 300;
+            color: $color-primary;
+        }
+        ul{
+            width: 556px;
+            display: flex;
+            justify-content: space-around;
+            li{
+                height: 70px;
+                display: flex;
+                align-items: center;
+            }
+            a{
+                text-decoration: none;
+                color: #A5A5A5;
+                font-family: $secondary-font;
+                font-size: 11px;
+                font-weight: bold;
+            }
+            li:hover{
+                box-sizing: border-box;
+                border-bottom: 2px solid $color-primary;
+                a{
+                    color: black;
+                }
+            }
+
+        }
+    }
+}
