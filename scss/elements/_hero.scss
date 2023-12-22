@@ -1,0 +1,87 @@
+.hero{
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    font-family: $main-font;
+    h1{
+        font-family: $secondary-font;
+        font-size: 49px;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 38px;
+        font-weight: 400;
+    }
+    button{
+        background-color: $color-primary;
+        width: 440px;
+        height: 67px;
+        color: white;
+        border-radius: 50px;
+        font-weight: 600;
+        border: none;
+        box-shadow: 5px 10px 14px #07ACE629;
+    }
+    .hero-photo{
+        width: 100%;
+        height: 594px;
+        background-image: url(/assets/Background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h2{
+        font-family: $secondary-font;
+        font-size: 36px;
+    }
+    .hero-stats{
+        width: 1490px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 101px;
+        h3{
+            font-family: $secondary-font;
+            font-weight: 800;
+            letter-spacing: 5.96px;
+        }
+        .hero-stats-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                text-align: center;
+                color: #A5A5A5;
+                font-family: $secondary-font;
+                font-size: 16px;
+            }
+        }
+        .circle{
+            height: 62.71px;
+            width: 62.71px;
+            border-radius: 50%;
+            background-color: #FB3B64;
+            .person {
+                padding-left: 30px;
+                padding-top: 3px;
+            }
+            .eye{
+                padding-left: 20px;
+                padding-top: 13px;
+            }
+            .catalog{
+                padding-left: 30px;
+                padding-top: 7px;
+            }
+        }
+        .red{
+            background-color: #FB3B64;
+        }
+        .blue{
+            background-color: #08A6E4;
+        }
+        .green{
+            background-color: #55DFB4;
+        }
+    }
+}
