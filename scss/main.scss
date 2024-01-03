@@ -1,6 +1,9 @@
 @import './settings/reset';
 @import './settings/variables';
-
+*{
+    font-family: $main-font;
+  }
 @import './elements/menu';
 @import './elements/hero';
-@import './elements/benefits'
+@import './elements/benefits';
+@import './elements/pricing'
