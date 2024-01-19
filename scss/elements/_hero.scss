@@ -85,3 +85,32 @@
         }
     }
 }
+
+@media (max-width: 430px) {
+    .hero{
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+            width: 70%;
+        }
+        button{
+            width: 310px;
+            height: 67px;
+        }
+        // .hero-photo{
+        //     background-position: -650px -50px;
+        //     background
+        // }
+        h2{
+            width: 80%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .hero-stats{
+            flex-direction: column;
+        }
+    }
+}
